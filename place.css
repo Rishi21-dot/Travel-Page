@@ -1,0 +1,43 @@
+main li img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+header{
+    position: static;
+}
+body{
+    background: linear-gradient(30deg,rgb(77,77,77),rgb(58,58,58));
+}
+main ul{
+    width: 1000px;
+    margin: 0 auto 50px auto;
+   
+}
+main li{
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 4px rbba(0,0,0,0.8);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+.content{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actions{
+    text-align: right;
+}
+.actions a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(22,211,245);
+    
+}
+.actions a:hover{
+    background-color: rgb(224, 229, 229);
+}
